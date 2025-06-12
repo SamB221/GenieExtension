@@ -10,7 +10,7 @@
   
   "content_scripts": [{
     "matches": ["*://*.sydneyplus.com/*"],
-    "js": ["js/control.js"],
+    "js": ["js/genieComments.js"],
     "run_at": "document_start"
   }],
 
