@@ -1,0 +1,4 @@
+Host Permissions: sydneyplus.com/ 
+This extension needs the ability to access the URL of 
+pages on sydneyplus.com in order to apply the comment rule
+only when on Genie

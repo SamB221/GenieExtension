@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "GenieCommentHighlighter",
+  "version": "1.0",
+  "description": "Brings Genie account comments to the forefront",
+  "host_permissions": ["*://*.sydneyplus.com/*"],
+  
+  "icons": {
+    "128": "icons/comment.png"
+  },
+  
+  "content_scripts": [{
+    "matches": ["*://*.sydneyplus.com/*"],
+    "js": ["js/control.js"],
+    "run_at": "document_start"
+  }],
+
+  "web_accessible_resources": [{ 
+    "resources": ["css/comment.css"],
+    "matches": ["*://*.sydneyplus.com/*"]
+  }]
+}

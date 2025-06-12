@@ -1,0 +1,7 @@
+#hld_main_cirBorrowers_hld_borrowerInfo::after {
+  content: var(--after-content, "Comment: ");
+  color: red;
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
