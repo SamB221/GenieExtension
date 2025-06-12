@@ -3,7 +3,6 @@
   "name": "GenieCommentHighlighter",
   "version": "1.0",
   "description": "Brings Genie account comments to the forefront",
-  "host_permissions": ["*://*.sydneyplus.com/*"],
   
   "icons": {
     "128": "icons/comment.png"
